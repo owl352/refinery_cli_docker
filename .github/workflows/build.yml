@@ -42,4 +42,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: owl353/refinery_cli_docker:latest
+          tags: ghcr.io/owl352/refinery_cli_docker:latest
