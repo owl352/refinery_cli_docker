@@ -42,5 +42,4 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:refinery_cli_docker
+          tags: owl353/refinery_cli_docker:latest
