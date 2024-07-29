@@ -41,4 +41,5 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
+          push: true
           tags: owl353/refinery_cli_docker:latest
